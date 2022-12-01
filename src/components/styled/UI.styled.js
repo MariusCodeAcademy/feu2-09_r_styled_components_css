@@ -71,12 +71,17 @@ export const Btn = styled.button`
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  background-color: var(--primary-500);
-  color: #fff;
+  background-color: ${(props) =>
+    props.secondary ? '#d5dae1' : 'var(--primary-500)'};
+  color: ${(props) => (props.secondary ? '#333f51' : '#fff')};
   padding: 14px 28px;
   display: inline-block;
   border-radius: 6px;
 `;
 
 // sukurti SecondaryBtn kuris paveldi visas Btn savybes
+export const SecondaryBtn = styled(Btn)`
+  background-color: #d5dae1;
+  color: #333f51;
+`;
 // perasom bg spalva ir color, kad atrodytu kaip pavyzdyje
