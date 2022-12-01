@@ -10,6 +10,10 @@ function App() {
         click me lg btn
       </Button>
       <LargeButton>I am large button</LargeButton>
+      {/* sitas ne visai veikia */}
+      <Button as='a' href='#about.html'>
+        I am link button
+      </Button>
     </div>
   );
 }

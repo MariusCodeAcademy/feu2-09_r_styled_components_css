@@ -15,6 +15,7 @@ export const Button = styled.button`
   background-color: transparent;
   font-size: ${(props) => (props.sm ? '0.9rem' : '1.5rem')};
   transition: all 0.2s ease-out;
+  display: inline-block;
   &:hover {
     background-color: coral;
     color: white;
