@@ -65,6 +65,7 @@ function GainMore(props) {
           title={sectionData.sectionTitle.title}
         />
         <Grid cols='3'>
+          {/* mapinti sectionData.gainCards ir gaminti SingleCard elementus */}
           <SingleCard
             icon={sectionData.gainCards[0].icon}
             title={sectionData.gainCards[0].title}
