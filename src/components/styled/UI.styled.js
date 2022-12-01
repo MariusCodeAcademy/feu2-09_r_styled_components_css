@@ -21,6 +21,12 @@ export const Grid = styled.ul`
   gap: 1rem;
   list-style: none;
   padding-left: 0;
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 500px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 // Susikurti SingleCard componenta naudojan styled components
 

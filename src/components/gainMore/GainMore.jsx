@@ -66,11 +66,14 @@ function GainMore(props) {
         />
         <Grid cols='3'>
           {/* mapinti sectionData.gainCards ir gaminti SingleCard elementus */}
-          <SingleCard
-            icon={sectionData.gainCards[0].icon}
-            title={sectionData.gainCards[0].title}
-            text={sectionData.gainCards[0].descr}
-          />
+          {sectionData.gainCards.map((gObj) => (
+            <SingleCard
+              key={gObj.id}
+              icon={gObj.icon}
+              title={gObj.title}
+              text={gObj.descr}
+            />
+          ))}
         </Grid>
       </Container>
     </Section>
