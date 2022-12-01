@@ -11,12 +11,22 @@ const Title = styled.h1`
 
 // sukurti Button komponenta, prideti jam stiliaus
 // panaudoti jsx
+const Button = styled.button`
+  padding: 1em 2em;
+  background-color: transparent;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-out;
+  &:hover {
+    background-color: coral;
+    color: white;
+  }
+`;
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App container'>
       <Title>React styled components</Title>
-      <Title>more title</Title>
+      <Button>click me</Button>
     </div>
   );
 }
