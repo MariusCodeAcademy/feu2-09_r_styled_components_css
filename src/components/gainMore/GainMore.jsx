@@ -1,5 +1,6 @@
 import { Container, Grid, Section } from './../styled/UI.styled';
 import SectionTitle from './../UI/sectionTitle/SectionTitle';
+import SingleCard from './SingleCard';
 
 const sectionData = {
   sectionTitle: {
@@ -63,10 +64,12 @@ function GainMore(props) {
           subtitle={sectionData.sectionTitle.subtitle}
           title={sectionData.sectionTitle.title}
         />
-        <Grid cols='2'>
-          <h3>One</h3>
-          <h3>One</h3>
-          <h3>One</h3>
+        <Grid cols='3'>
+          <SingleCard
+            icon={sectionData.gainCards[0].icon}
+            title={sectionData.gainCards[0].title}
+            text={sectionData.gainCards[0].descr}
+          />
         </Grid>
       </Container>
     </Section>
