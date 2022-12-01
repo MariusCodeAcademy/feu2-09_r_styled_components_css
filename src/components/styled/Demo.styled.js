@@ -2,7 +2,7 @@
 
 import styled from 'styled-components';
 
-export const Title = styled.h1`
+const Title = styled.h1`
   font-size: 3rem;
   font-weight: normal;
   text-decoration: underline;
@@ -10,7 +10,7 @@ export const Title = styled.h1`
 
 // sukurti Button komponenta, prideti jam stiliaus
 // panaudoti jsx
-export const Button = styled.button`
+const Button = styled.button`
   padding: 0.6em 1.2em;
   background-color: transparent;
   font-size: ${(props) => (props.sm ? '0.9rem' : '1.5rem')};
@@ -23,7 +23,7 @@ export const Button = styled.button`
 `;
 
 // LargeButton, paveldi viska is Button, perrasom ka mums reikia
-export const LargeButton = styled(Button)`
+const LargeButton = styled(Button)`
   padding: 0.9em 1.8em;
   text-transform: uppercase;
 `;
