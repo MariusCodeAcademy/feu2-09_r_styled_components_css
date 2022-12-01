@@ -9,10 +9,14 @@ const Title = styled.h1`
   text-decoration: underline;
 `;
 
+// sukurti Button komponenta, prideti jam stiliaus
+// panaudoti jsx
+
 function App() {
   return (
     <div className='App'>
       <Title>React styled components</Title>
+      <Title>more title</Title>
     </div>
   );
 }
