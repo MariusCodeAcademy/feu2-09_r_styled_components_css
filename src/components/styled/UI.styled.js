@@ -57,3 +57,6 @@ const SubmitBtn = styled.button.attrs({
 })`
   font-size: 2rem;
 `;
+
+// Sukurti Flex styled komponent
+// kuris isdelioja elementus kaip pavyzdyje
