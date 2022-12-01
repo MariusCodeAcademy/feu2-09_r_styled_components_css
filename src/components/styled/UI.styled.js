@@ -11,6 +11,8 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 0 20px;
 `;
-// susikuri SectionTitle styled componenta
+// susikuri Grid componenta
+
+// Susikurti SingleCard componenta naudojan styled components
 
 //
