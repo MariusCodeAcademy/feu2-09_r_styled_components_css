@@ -66,3 +66,17 @@ export const Flex = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
+
+export const Btn = styled.button`
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  background-color: var(--primary-500);
+  color: #fff;
+  padding: 14px 28px;
+  display: inline-block;
+  border-radius: 6px;
+`;
+
+// sukurti SecondaryBtn kuris paveldi visas Btn savybes
+// perasom bg spalva ir color, kad atrodytu kaip pavyzdyje

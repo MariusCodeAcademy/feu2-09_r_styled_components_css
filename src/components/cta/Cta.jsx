@@ -1,4 +1,4 @@
-import { Container, Flex, Section } from './../styled/UI.styled';
+import { Btn, Container, Flex, Section } from './../styled/UI.styled';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
@@ -36,7 +36,11 @@ function Cta(props) {
                 Flex is a Small SaaS Business. Flex isn't a traditional company.
               </CtaSubttle>
             </div>
-            <div>right</div>
+            <div>
+              <Btn>Get Started</Btn>
+              <Btn secondary>Learn more</Btn>
+              <SecondaryBtn>Learn more</SecondaryBtn>
+            </div>
           </Flex>
         </Wrapper>
       </Container>
