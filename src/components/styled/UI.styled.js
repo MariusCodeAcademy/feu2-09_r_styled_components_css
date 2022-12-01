@@ -60,3 +60,9 @@ const SubmitBtn = styled.button.attrs({
 
 // Sukurti Flex styled komponent
 // kuris isdelioja elementus kaip pavyzdyje
+
+export const Flex = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
