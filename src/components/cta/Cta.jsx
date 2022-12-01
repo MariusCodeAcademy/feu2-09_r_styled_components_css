@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   background-color: #333;
   padding: 62px 98px;
   color: white;
+  border-radius: 6px;
 `;
 
 const CtaTitle = styled.h2`
@@ -42,11 +43,10 @@ function Cta(props) {
                 Flex is a Small SaaS Business. Flex isn't a traditional company.
               </CtaSubttle>
             </div>
-            <div>
+            <Flex gap>
               <Btn>Get Started</Btn>
-              <Btn secondary>Learn more</Btn>
               <SecondaryBtn>Learn more</SecondaryBtn>
-            </div>
+            </Flex>
           </Flex>
         </Wrapper>
       </Container>
