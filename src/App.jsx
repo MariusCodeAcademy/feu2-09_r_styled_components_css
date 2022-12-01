@@ -5,8 +5,10 @@ function App() {
   return (
     <div className='App container'>
       <Title>React styled components</Title>
-      <Button>click me</Button>
-      <Button sm>click me lg btn</Button>
+      <Button onClick={() => console.count('clicked')}>click me</Button>
+      <Button type='submit' sm>
+        click me lg btn
+      </Button>
       <LargeButton>I am large button</LargeButton>
     </div>
   );
