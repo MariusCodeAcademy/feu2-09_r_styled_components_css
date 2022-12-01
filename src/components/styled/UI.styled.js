@@ -13,6 +13,15 @@ export const Container = styled.div`
 `;
 // susikuri Grid componenta
 
+// jei gaunam propsa pavadinimu cols, tai tai bus kiek stulpeliu
+// kitu atveju 3
+export const Grid = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(${(props) => props.cols || '3'}, 1fr);
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+`;
 // Susikurti SingleCard componenta naudojan styled components
 
 //

@@ -1,4 +1,4 @@
-import { Container, Section } from './../styled/UI.styled';
+import { Container, Grid, Section } from './../styled/UI.styled';
 import SectionTitle from './../UI/sectionTitle/SectionTitle';
 
 const sectionData = {
@@ -63,6 +63,11 @@ function GainMore(props) {
           subtitle={sectionData.sectionTitle.subtitle}
           title={sectionData.sectionTitle.title}
         />
+        <Grid cols='2'>
+          <h3>One</h3>
+          <h3>One</h3>
+          <h3>One</h3>
+        </Grid>
       </Container>
     </Section>
   );
