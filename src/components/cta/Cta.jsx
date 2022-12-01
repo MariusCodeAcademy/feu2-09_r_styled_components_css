@@ -38,8 +38,8 @@ function Cta(props) {
             </div>
             <div>
               <Btn>Get Started</Btn>
-              <Btn secondary>Learn more</Btn>
-              <SecondaryBtn>Learn more</SecondaryBtn>
+              {/* <Btn secondary>Learn more</Btn>
+              <SecondaryBtn>Learn more</SecondaryBtn> */}
             </div>
           </Flex>
         </Wrapper>
